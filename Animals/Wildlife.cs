@@ -26,5 +26,9 @@ namespace Wildpark.Animals
  {
      return _animalClass;
  }
+ public string GetAnimal()
+ {
+     return _species+" "+_dietType+" "+_animalClass;
+ }
   }
 }

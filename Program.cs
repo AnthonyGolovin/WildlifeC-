@@ -57,7 +57,7 @@ namespace Wildpark.Animals {
     //   if (seeListCheck.ToLower == "y")
     //   {}
 
-    Console.WriteLine(AnimalList[0]);
+    Console.WriteLine(AnimalList[0].GetAnimal());
 
 
       Main();
