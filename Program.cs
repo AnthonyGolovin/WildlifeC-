@@ -16,7 +16,7 @@ namespace Wildpark.Animals {
     {
 
 
-        Console.WriteLine("Would you like to add an animal? {y or n]");
+        Console.WriteLine("Would you like to add an animal? [y or n]");
     string checkAdd = Console.ReadLine();
     if (checkAdd.ToLower() == "y")
     {
@@ -92,6 +92,7 @@ namespace Wildpark.Animals {
 
         //string condition = Console.ReadLine();
         //AnimalList[intId].SetAnimalClass(animalClass);
+        Console.WriteLine("Revised Animal is: " + AnimalList[intId].GetAnimal());
         AddAnimal(AnimalList);
   }
 
