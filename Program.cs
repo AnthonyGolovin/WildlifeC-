@@ -56,11 +56,21 @@ namespace Wildpark.Animals {
     //   string seeListCheck = Console.ReadLine();
     //   if (seeListCheck.ToLower == "y")
     //   {}
+    // foreach(Animal listed in AnimalList)
+    // {
+    //     Console.WriteLine("----------------------");
+    //     Console.WriteLine(listed.GetSpecies());
+    //     Console.WriteLine("Is a " + listed.GetDietType());
+    //     Console.WriteLine("Is of the Class " + listed.GetAnimalClass());
+    // }
+    for (int i = 0; i < AnimalList.Count; i++)
+        {
+          Console.WriteLine(i + ": " + AnimalList[i].GetAnimal());
+        }
+    //Console.WriteLine(AnimalList[0].GetAnimal());
 
-    Console.WriteLine(AnimalList[0].GetAnimal());
 
-
-      Main();
+      AddAnimal(AnimalList);
   }
 
   }
