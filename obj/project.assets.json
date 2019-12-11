@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/WildlifePark/WildlifePark.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/WildlifeC-/WildlifePark.csproj",
       "projectName": "WildlifePark",
-      "projectPath": "/Users/Guest/Desktop/WildlifePark/WildlifePark.csproj",
+      "projectPath": "/Users/Guest/Desktop/WildlifeC-/WildlifePark.csproj",
       "packagesPath": "/Users/Guest/.nuget/packages/",
-      "outputPath": "/Users/Guest/Desktop/WildlifePark/obj/",
+      "outputPath": "/Users/Guest/Desktop/WildlifeC-/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
